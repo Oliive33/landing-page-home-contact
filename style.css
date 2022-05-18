@@ -203,15 +203,28 @@ strong {
     top: -200px;
     left: 0;
   }
+  .right img {
+    height: 430px;
+  }
   .description {
     height: calc(100vh - -150px);
   }
 }
-@media (max-width: 366px) {
+@media (max-width: 386px) {
   .left h1 {
     font-size: 17px;
   }
+  .left a {
+    margin-top: 0px;
+  }
+  .right img {
+    height: 305px;
+  }
+  .description {
+    height: calc(100vh - -50px);
+  }
   .footer {
+    margin-top: 15px;
     font-size: 14px;
   }
 }
